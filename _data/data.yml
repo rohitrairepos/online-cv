@@ -1,6 +1,6 @@
 sidebar:
   position: right
-  about: false
+  about: True
   education: false
 
   name: Rohit Rai
@@ -13,7 +13,7 @@ sidebar:
   citizenship: India
   website: https://rohitrai.github.io
   linkedin: rohit-rai-dev
-  github: rohit-rai
+  github: rohitrairepos
   twitter:
   stack-overflow:
   leetcode:
@@ -119,7 +119,7 @@ certifications:
     - name: Red Hat Certified OpenShift Administrator
     - name: Red Hat Certified Specialist in OpenShift Virtualization
     - name: Certified Kubernetes Administrator (CKA)
-      credentialid: LF-afwpwqhe4h
+      #credentialid: LF-afwpwqhe4h
     - name: Red Hat Certified System Administrator – OpenStack
     - name: Red Hat Certified Engineer – Ansible
     - name: CCNA Routing & Switching
