@@ -12,7 +12,7 @@ sidebar:
   timezone: Asia/Kolkata
   citizenship: India
   website: https://rohitrai.github.io
-  linkedin: rohit-rai
+  linkedin: rohit-rai-dev
   github: rohit-rai
   twitter:
   stack-overflow:
@@ -144,4 +144,4 @@ skills:
       level: 90%
 
 footer: >
-  Built with Jekyll and GitHub Pages
+  
