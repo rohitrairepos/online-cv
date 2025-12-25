@@ -1,6 +1,6 @@
 sidebar:
   position: right
-  about: True
+  about: false
   education: false
 
   name: Rohit Rai
