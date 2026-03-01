@@ -44,12 +44,26 @@ experiences:
       time: Nov 2022 - Present
       company: IBM Cloud – VPC Platform Team
       details: |
-        - Own CI/CD pipelines and release management across pre-int, int, staging, and prod
-        - Operate Kubernetes-based platform services enabling VPC compute
-        - Handle 24x7 on-call using PagerDuty with incident triage and RCA
-        - Automate deployment validation using Python and Bash
-        - Lead new region and mzone bring-up with production cutover
-        - Optimize pipelines to reduce deployment time and manual effort
+           - Led end-to-end regional expansions for IBM Cloud VPC (Montreal, Madrid, Mumbai, Chennai DC), managing infrastructure readiness and zero-impact production cutovers.
+           - Architected Kubernetes control-planes and networking configurations for global-scale compute services, managing clusters with 1,000+ worker nodes.
+           - Reduced deployment windows by 40% by re-engineering CD pipelines to parallelize zone/zonelet rollouts across complex regional topologies.
+           - Modernized CI/CD infrastructure by using Terraform to migrate legacy Jenkins workflows to IBM OnePipeline (Tekton), automating toolchain creation.
+           - Developed Terraform-managed health checks for Next Gen Data Centers (NGDC), executing hourly validations of pod readiness and node status.
+           - Engineered GitOps regional promotion using K8s CronJobs and Bash to automate delta comparisons and PR creation between environments.
+           - Automated release validation via Tekton, implementing environment locking and automated testing for PR auto-merging across global regions.
+           - Decreased release cycle times by 1+ hour per PR by implementing label-driven "skip-pre-check" logic for back-to-back regional deployments.
+           - Developed Python-based security monitoring to audit HashiCorp Vault secrets, triggering Slack alerts 5 days prior to certificate expiration.
+           - Built Python health-check suites to automate real-time validation of pod status, node readiness, and control-plane stability.
+           - Optimized CI/CD workflows using Jenkins and Tekton, introducing label-based skipping to bypass validated zones during deployment reruns.
+           - Managed 24/7 high-availability operations, leading incident triage, RCA, and rapid recovery via PagerDuty for critical VPC services.
+           - Improved MTTR and platform stability by partnering with SRE teams to enhance monitoring coverage and proactive alerting thresholds.
+           - Collaborated with Networking and Security teams to ensure architectural compliance, service onboarding, and strict regulatory readiness.
+           - Scaled global compute capacity by automating node provisioning and edge-layer expansions to meet increasing workload demands.
+           - Standardized deployment orchestration across Pre-Integration, Staging, and Production, ensuring consistency in microservice delivery.
+           - Enhanced developer productivity by building self-service automation tools that reduced manual infrastructure overhead by 30%+.
+           - Implemented automated rollback strategies and validation gates to significantly reduce change failure rates in production environments.
+           - Successfully operationalized multiple cloud regions with production-grade reliability, contributing to the growth of IBM Cloud VPC.
+
 
     - role: Kubernetes Deployment & Administration Engineer
       time: Dec 2021 - Nov 2022
