@@ -43,7 +43,6 @@ experiences:
       time: Nov 2022 - Present
       company: IBM Cloud – VPC Platform Team
       details: |
-           details: |
                - **Led end-to-end regional expansions** for IBM Cloud VPC (Montreal, Madrid, Mumbai, Chennai DC), managing infrastructure readiness and zero-impact production cutovers.
                - **Architected Kubernetes control-planes and networking configurations** for global-scale compute services, managing clusters with 1,000+ worker nodes.
                - **Reduced deployment windows by 40%** by re-engineering CD pipelines to parallelize zone/zonelet rollouts across complex regional topologies.
