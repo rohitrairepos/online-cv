@@ -11,6 +11,7 @@ sidebar:
   phone: +91-9560015184
   timezone: Asia/Kolkata
   citizenship: India
+  location: Bengaluru, India
   website: https://rohitrai.github.io
   linkedin: rohit-rai-dev
   github: rohitrairepos
@@ -30,11 +31,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-        Senior DevOps Engineer with 11+ years of experience in Cloud Platform Engineering, Kubernetes operations, 
-        CI/CD architecture, OpenStack, and large-scale infrastructure environments. Currently part of IBM Cloud VPC Platform Team, 
+        Senior DevOps Engineer with 11+ years of experience in Cloud Platform Engineering, Kubernetes operations,
+        CI/CD architecture, OpenStack, and large-scale infrastructure environments. Currently part of IBM Cloud VPC Platform Team,
         leading Kubernetes-based platform deployments, new region/mzone bring-up, CI/CD ownership (Jenkins & Tekton),
-        automation engineering, and production-grade release management. Strong expertise in platform reliability, 
-        incident response, automation using Python, and multi-region infrastructure scaling
+        automation engineering, and production-grade release management. Strong expertise in platform reliability,
+        incident response, automation using Python, and multi-region infrastructure scaling.
 
 experiences:
   title: Experience
@@ -43,7 +44,7 @@ experiences:
       time: Nov 2022 - Present
       company: IBM Cloud – VPC Platform Team
       details: |
-               - **Led end-to-end regional expansions** for IBM Cloud VPC (Montreal, Madrid, Mumbai, Chennai DC), managing infrastructure readiness and zero-impact production cutovers.
+               - **Led end-to-end regional expansions** for IBM Cloud VPC (WDC, Madrid, Dallas DC), managing infrastructure readiness and zero-impact production cutovers.
                - **Architected Kubernetes control-planes and networking configurations** for global-scale compute services, managing clusters with 1,000+ worker nodes.
                - **Reduced deployment windows by 40%** by re-engineering CD pipelines to parallelize zone/zonelet rollouts across complex regional topologies.
                - **Modernized CI/CD infrastructure** by using Terraform to migrate legacy Jenkins workflows to IBM OnePipeline (Tekton), automating toolchain creation.
@@ -67,56 +68,58 @@ experiences:
       time: Dec 2021 - Nov 2022
       company: Nokia (Tech Mahindra Payroll) – Bytel France
       details: |
-        - Deployed Kubernetes on bare metal Dell R650 servers
-        - Prepared BIOS, RAID, firmware, and BMC configurations
-        - Deployed applications using Helm charts
-        - Configured ConfigMaps, Secrets, Volumes
-        - Implemented ELK stack on Kubernetes
-        - Performed scale-in and scale-out of cluster nodes
+               - **Provisioned and deployed Kubernetes clusters** on bare-metal Dell R650 servers, managing low-level BIOS configurations, RAID setups, and firmware upgrades.
+               - **Orchestrated application delivery using Helm**, managing critical Kubernetes resources including ConfigMaps, Secrets, and persistent storage solutions.
+               - **Implemented observability stacks** by installing and configuring the ELK (Elasticsearch, Logstash, Kibana) stack within production Kubernetes clusters.
+               - **Executed platform optimization and security** through cluster hardening, dynamic scale-in/scale-out operations, and rigorous acceptance testing.
 
     - role: OpenStack Deployment & Administration Engineer
       time: Nov 2020 - Nov 2021
-      company: Nokia – 3UK Maya (UK)
+      company: Nokia (Tech Mahindra Payroll) – 3UK Maya (UK)
       details: |
-        - Deployed OpenStack NFVI using OOO model
-        - Integrated OpenStack with NetAct monitoring
-        - Configured networks, flavors, images, and host aggregates
-        - Performed cluster hardening and ATP validation
+               - **Provisioned high-performance Kubernetes clusters** on bare-metal Dell R650 servers, managing full-stack infrastructure including BIOS configuration, RAID setup, and firmware upgrades.
+               - **Architected and managed OpenStack clusters** using OOO methodology, integrating VNFM/NFVO components and scaling compute and storage within NFVI environments.
+               - **Optimized platform operations** by deploying ELK observability stacks, managing Helm-based application delivery, and executing rigorous cluster hardening and acceptance testing.
 
     - role: VNFD Developer
       time: Mar 2020 - Oct 2020
-      company: Nokia – Rostelecom Russia
+      company: Nokia (Tech Mahindra Payroll) – Rostelecom Russia
       details: |
-        - Developed VNFD packages using Ansible and Bash
-        - Created and tested HOT and TOSCA templates
-        - Customized CentOS images for customer needs
-        - Supported ATP, testing, and production handover
+               - **Engineered VNFD packages** for firewall-based telecom workloads using Ansible and Bash, streamlining automated VNF deployments.
+               - **Developed modular, idempotent Ansible playbooks** for end-to-end VM provisioning, security hardening, and complex OS-level configurations across global environments.
+               - **Architected infrastructure-as-code (IaC) solutions** using HOT (Heat Orchestration Templates) and TOSCA to automate provisioning within OpenStack environments.
+               - **Optimized performance and security** by building customized CentOS images and integrating automated network/firewall configuration for production-grade reliability.
+               - **Led end-to-end validation and handover**, executing functional testing and troubleshooting in staging to ensure seamless production cutovers and team knowledge transfer.
 
-    - role: OpenStack Administrator
+    - role: OpenStack Deployment Engineer
       time: Sept 2019 - Mar 2020
-      company: RADCOM Ltd – Globe Telecom
+      company: RADCOM Ltd (Onsite – Israel & Manila)
       details: |
-        - Deployed RHOSP13 using OOO
-        - Integrated bare-metal nodes using Ironic
-        - Deployed applications using Heat templates
-        - Performed troubleshooting and production support
+               - **Deployed RHOSP13 in production environments**, successfully integrating bare-metal servers using OpenStack Ironic.
+               - **Architected Heat templates** for automated infrastructure orchestration and performed deep-stack analysis to resolve complex onsite deployment issues.
 
     - role: OpenStack Administrator
       time: Jan 2017 - Aug 2019
-      company: Ericsson
+      company: Ericsson Global India Pvt Ltd (Onsite – Egypt)
       details: |
-        - Deployed and operated OpenStack clouds for multiple customers
-        - Managed tenants, projects, images, and VNF deployments
-        - Integrated LDAP authentication and monitoring
-        - Performed UAT and customer handover
+               - **Managed multi-customer OpenStack cloud environments**, designing network subnet allocations and creating Heat templates for resource orchestration.
+               - **Deployed Virtual Network Functions (VNFs)** via Horizon and CLI, overseeing full VM lifecycle operations in high-availability environments.
+
+    - role: Linux Administrator
+      time: Dec 2015 - Dec 2016
+      company: Ericsson Global India Pvt Ltd (Onsite – Taiwan)
+      details: |
+               - **Installed and configured Linux systems** tailored for telecom-specific environments, ensuring high-performance server stability.
+               - **Managed DNS, AAA, and VO-WiFi services**, performing end-to-end troubleshooting to maintain critical network service availability.
 
     - role: Network Engineer
       time: Jul 2014 - Dec 2015
       company: Orange Belgium
       details: |
-        - Engineered BGP and OSPF routing for managed customers
-        - Configured Cisco routers and WAN connectivity
-        - Performed packet analysis using Wireshark
+               - **Architected a scalable 4G SecGW (Security Gateway) solution on AWS**, utilizing Terraform to provision complex multi-interface VPC environments for LTE traffic isolation.
+               - **Automated the deployment of virtualized telecom workloads** using AWS CodeDeploy, ensuring consistent configuration management across elastic EC2 fleets.
+               - **Engineered dynamic scaling for LTE signalling traffic** by implementing Auto Scaling Groups driven by custom network metrics, maintaining 99.99% availability during peak loads.
+               - **Integrated automated health-checks and validation** via Python scripts to monitor S1-interface readiness and IPsec tunnel stability post-deployment.
 
 education:
   title: Education
@@ -124,18 +127,23 @@ education:
     - degree: B.Tech in Electronics & Communication Engineering
       university: Inderprastha Engineering College
       time: 2010 - 2014
+    - degree: Intermediate
+      university: UPC
+      time: 2009
+    - degree: Matriculation
+      university: UPC
+      time: 2007
 
 certifications:
   title: Certifications
   list:
+    - name: Certified Kubernetes Administrator (CKA)
     - name: Red Hat Certified OpenShift Administrator
     - name: Red Hat Certified Specialist in OpenShift Virtualization
-    - name: Certified Kubernetes Administrator (CKA)
-      #credentialid: LF-afwpwqhe4h
-    - name: Red Hat Certified System Administrator – OpenStack
-    - name: Red Hat Certified Engineer – Ansible
+    - name: Red Hat Certified System Administrator (RHCSA) – RHEL
+    - name: Red Hat Certified System Administrator (RHCSA) – OpenStack
+    - name: Red Hat Certified Engineer (RHCE) – Ansible
     - name: CCNA Routing & Switching
-    - name: Ericsson Certified IP Associate
 
 skills:
   title: Skills & Proficiency
@@ -144,7 +152,9 @@ skills:
       level: 95%
     - name: IBM Cloud VPC
       level: 90%
-    - name: CI/CD (Jenkins, Onepipeline)
+    - name: CI/CD (Jenkins, OnePipeline/Tekton)
+      level: 90%
+    - name: Linux (RHEL, CentOS, Ubuntu)
       level: 90%
     - name: Python & Bash
       level: 85%
@@ -152,8 +162,7 @@ skills:
       level: 80%
     - name: OpenStack
       level: 80%
-    - name: Linux (RHEL, Ubuntu)
-      level: 90%
+    - name: Networking (DNS, TCP/IP, Cisco)
+      level: 75%
 
 footer: >
-  
